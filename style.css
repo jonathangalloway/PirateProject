@@ -1,0 +1,40 @@
+.Parent{
+    border-style: solid;
+    border-color: #ccc;
+    border-left-width: 80px;
+    border-right-width: 80px;
+}
+.Child{
+    background-color: white;
+}
+.Title{
+    font-family: "Seaweed Script", cursive;
+}
+.First{
+    font-family: "Nanum Brush Script",sans-serif;
+    text-align: left;
+    position: inherit;
+}
+.Second{
+    font-family: "Nanum Brush Script",sans-serif;
+    text-align: inherit;
+}
+.image{
+    float: right;
+    transform: rotate(5deg);
+    width: 284px;
+  padding: 10px 10px 35px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  position: relative;
+}
+.image2{
+    float: left;
+    transform: rotate(-5deg);
+    width: 284px;
+  padding: 10px 10px 35px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
